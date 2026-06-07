@@ -1,0 +1,24 @@
+#include <iostream>
+using namespace std;
+
+int main(){
+    int number1;
+    cout<<"Enter first number: ";
+    cin>>number1;
+    
+    int number2;
+    cout<<"Enter second number: ";
+    cin>>number2;
+    
+    int sum = number1 + number2;
+    cout<<sum<<endl;
+    
+    int difference = number1 - number2;
+    cout<<difference<<endl;
+    
+    int product = number1 * number2;
+    cout<<product<<endl;
+    
+    int division = number1 / number2;
+    cout<<division<<endl;
+}
